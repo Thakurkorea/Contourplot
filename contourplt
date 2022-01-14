@@ -1,0 +1,7 @@
+contourf(a);colorbar
+yticks([1	2	3	4	5	6])
+yticklabels({0	0.015	0.03	0.3	0.5	1})
+xticks([1	2	3	4	5	6])
+xticklabels({10	20	30	40	50})
+xlabel 'Escape from hunter (KM)'
+ylabel 'Disease rate'
