@@ -1,4 +1,4 @@
-contourf(a);colorbar
+contourf(a);colorbar     % a in vector data matrix
 yticks([1	2	3	4	5	6])
 yticklabels({0	0.015	0.03	0.3	0.5	1})
 xticks([1	2	3	4	5	6])
