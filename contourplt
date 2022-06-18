@@ -5,3 +5,24 @@ xticks([1	2	3	4	5	6])
 xticklabels({10	20	30	40	50})
 xlabel 'Escape from hunter (KM)'
 ylabel 'Disease rate'
+
+
+
+h=heatmap(aa)
+yy=({'Afghanistan','Bangladesh' ,'India', 'Nepal', ...
+    'Pakistan' })
+xx= ({'A BCG vaccine','Three polio vaccines','Three DPT vaccine', ...
+    'A measles vaccine','Complete vaccination'})
+
+h.YDisplayLabels=yy
+h.XDisplayLabels=xx
+
+hh=contourf(aa);colorbar     % a in vector data matrix
+yticks([1	2	3	4	5	6])
+% yticklabels({0	0.015	0.03	0.3	0.5	1})
+xticks([1	2	3	4	5	6])
+% xticklabels({10	20	30	40	50})
+% xlabel 'Escape from hunter (KM)'
+% ylabel 'Disease rate'
+xticklabels(xx)
+yticklabels(yy)
